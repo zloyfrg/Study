@@ -7,5 +7,4 @@ n4 = input('Четвёртое число:')
 n5 = input('Пятое число:')
 
 a = [int(n1),int(n2),int(n3),int(n4),int(n5)]
-a.sort()
-print(f'Максимальное число {a[len(a)-1]}')
+print(f'Максимальное число {max(a)}')
