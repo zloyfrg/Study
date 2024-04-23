@@ -8,5 +8,5 @@ ay = float(input('Введите координату Y точки А:'))
 bx = float(input('Введите координату Х точки B:'))
 by = float(input('Введите координату Y точки B:'))
 
-print(f'Длина отрезка AB = {sqrt(abs(ax-ay)**2+abs(bx-by)**2)}')
+print(f'Длина отрезка AB = {sqrt((ax-ay)**2+(bx-by)**2)}')
 
