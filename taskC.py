@@ -1,0 +1,2 @@
+# Задача С
+import random
