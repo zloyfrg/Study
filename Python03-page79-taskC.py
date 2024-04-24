@@ -4,9 +4,9 @@
 является ли переданное ей число числом Фибоначчи
 """
 import random
-# Генерируем случайную длину массива length_list длиной в диапазоне от 6 до 10
+# Генерируем случайную длину массива length_list длиной в диапазоне от 10 до 15
 rand_list = []
-length_list = random.randint(6, 10)
+length_list = random.randint(10, 15)
 
 # Заполняем массив rand_list случайными числами в диапазоне от 0 до 100
 while length_list:
@@ -25,6 +25,14 @@ while i < n:
     f1, f2 = f2, f1 + f2
     fib_list.append(f2)
     i += 1
-print(fib_list)
+
+# Выбираем числа Фибоначчи из сгенерированного списка и вносим в итоговый список result_list
+result_list = []
+for num in rand_list:
+    for fib in fib_list:
+        if num == fib:
+            result_list.append(num)
+
+print(f'Массив В:\n{sorted(result_list)}')
 
 
