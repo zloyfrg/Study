@@ -4,9 +4,9 @@
 является ли переданное ей число числом Фибоначчи
 """
 import random
-# Генерируем случайную длину массива length_list длиной в диапазоне от 10 до 15
+# Генерируем случайную длину массива length_list длиной в диапазоне от 15 до 20
 rand_list = []
-length_list = random.randint(10, 15)
+length_list = random.randint(15, 20)
 
 # Заполняем массив rand_list случайными числами в диапазоне от 0 до 100
 while length_list:
