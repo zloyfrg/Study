@@ -5,10 +5,10 @@
 """
 import random
 # Генерируем случайную длину массива length_list длиной в диапазоне от 15 до 20
-rand_list = []
 length_list = random.randint(15, 20)
 
 # Заполняем массив rand_list случайными числами в диапазоне от 0 до 100
+rand_list = []
 while length_list:
     rand_list.append(random.randint(0, 100))
     length_list -= 1
